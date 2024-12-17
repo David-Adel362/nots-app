@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Weather App',
+      title: 'Weather',
       theme: ThemeData(
         fontFamily: GoogleFonts.akshar().fontFamily,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
